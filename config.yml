@@ -1,4 +1,4 @@
-baseURL: "https://duchoangmanh.github.io/"
+baseURL: "https://duchng.github.io/"
 title: duchm
 paginate: 10
 theme:
@@ -80,7 +80,7 @@ params:
             technical notes 🌟.
     socialIcons:
         - name: github
-          url: "https://github.com/DucHoangManh"
+          url: "https://github.com/duchng"
         - name: facebook
           url: "https://www.facebook.com/gelous3.mdh/"
         - name: linkedin

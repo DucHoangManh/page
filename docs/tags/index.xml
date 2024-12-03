@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on duchm</title>
-    <link>https://duchoangmanh.github.io/tags/</link>
+    <link>https://duchng.github.io/tags/</link>
     <description>Recent content in Tags on duchm</description>
     <image>
       <title>duchm</title>
-      <url>https://duchoangmanh.github.io/papermod-cover.png</url>
-      <link>https://duchoangmanh.github.io/papermod-cover.png</link>
+      <url>https://duchng.github.io/papermod-cover.png</url>
+      <link>https://duchng.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 15 Feb 2024 20:40:05 +0700</lastBuildDate>
-    <atom:link href="https://duchoangmanh.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://duchng.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>efective-go</title>
-      <link>https://duchoangmanh.github.io/tags/efective-go/</link>
+      <link>https://duchng.github.io/tags/efective-go/</link>
       <pubDate>Thu, 15 Feb 2024 20:40:05 +0700</pubDate>
-      <guid>https://duchoangmanh.github.io/tags/efective-go/</guid>
+      <guid>https://duchng.github.io/tags/efective-go/</guid>
       <description></description>
     </item>
     <item>
       <title>go</title>
-      <link>https://duchoangmanh.github.io/tags/go/</link>
+      <link>https://duchng.github.io/tags/go/</link>
       <pubDate>Thu, 15 Feb 2024 20:40:05 +0700</pubDate>
-      <guid>https://duchoangmanh.github.io/tags/go/</guid>
+      <guid>https://duchng.github.io/tags/go/</guid>
       <description></description>
     </item>
     <item>
       <title>generic</title>
-      <link>https://duchoangmanh.github.io/tags/generic/</link>
+      <link>https://duchng.github.io/tags/generic/</link>
       <pubDate>Thu, 30 Jun 2022 20:21:52 +0700</pubDate>
-      <guid>https://duchoangmanh.github.io/tags/generic/</guid>
+      <guid>https://duchng.github.io/tags/generic/</guid>
       <description></description>
     </item>
     <item>
       <title>english</title>
-      <link>https://duchoangmanh.github.io/tags/english/</link>
+      <link>https://duchng.github.io/tags/english/</link>
       <pubDate>Fri, 31 Dec 2021 23:24:26 +0700</pubDate>
-      <guid>https://duchoangmanh.github.io/tags/english/</guid>
+      <guid>https://duchng.github.io/tags/english/</guid>
       <description></description>
     </item>
     <item>
       <title>framework</title>
-      <link>https://duchoangmanh.github.io/tags/framework/</link>
+      <link>https://duchng.github.io/tags/framework/</link>
       <pubDate>Fri, 31 Dec 2021 23:24:26 +0700</pubDate>
-      <guid>https://duchoangmanh.github.io/tags/framework/</guid>
+      <guid>https://duchng.github.io/tags/framework/</guid>
       <description></description>
     </item>
     <item>
       <title>design pattern</title>
-      <link>https://duchoangmanh.github.io/tags/design-pattern/</link>
+      <link>https://duchng.github.io/tags/design-pattern/</link>
       <pubDate>Sun, 26 Dec 2021 22:14:29 +0700</pubDate>
-      <guid>https://duchoangmanh.github.io/tags/design-pattern/</guid>
+      <guid>https://duchng.github.io/tags/design-pattern/</guid>
       <description></description>
     </item>
   </channel>

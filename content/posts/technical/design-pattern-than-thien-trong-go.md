@@ -233,7 +233,7 @@ func main() {
 ```
 Bằng cách chia nhỏ việc triển khai, domain interface và model, trong trường hợp một phần mềm cần thay thế các module trong tương lai, có thể update một cách dễ dàng.
 
-Mã nguồn trong bài viết có thể xem tại: https://github.com/DucHoangManh/go-patterns
+Mã nguồn trong bài viết có thể xem tại: https://github.com/duchng/go-patterns
 
 
 

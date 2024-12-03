@@ -283,7 +283,7 @@ No route found
 That's it, after this, we have implemented the prototype version of caneweb framework in go.
 Currently, the framework does nothing more than the standard net/http package but worry not, some other nice features will be added in the next versions. 
 
-See the source code at https://github.com/DucHoangManh/caneweb
+See the source code at https://github.com/duchng/caneweb
 
 
 

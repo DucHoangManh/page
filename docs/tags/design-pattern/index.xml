@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>design pattern on duchm</title>
-    <link>https://duchoangmanh.github.io/tags/design-pattern/</link>
+    <link>https://duchng.github.io/tags/design-pattern/</link>
     <description>Recent content in design pattern on duchm</description>
     <image>
       <title>duchm</title>
-      <url>https://duchoangmanh.github.io/papermod-cover.png</url>
-      <link>https://duchoangmanh.github.io/papermod-cover.png</link>
+      <url>https://duchng.github.io/papermod-cover.png</url>
+      <link>https://duchng.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 26 Dec 2021 22:14:29 +0700</lastBuildDate>
-    <atom:link href="https://duchoangmanh.github.io/tags/design-pattern/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://duchng.github.io/tags/design-pattern/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Design pattern thân thiện trong go</title>
-      <link>https://duchoangmanh.github.io/posts/technical/design-pattern-than-thien-trong-go/</link>
+      <link>https://duchng.github.io/posts/technical/design-pattern-than-thien-trong-go/</link>
       <pubDate>Sun, 26 Dec 2021 22:14:29 +0700</pubDate>
-      <guid>https://duchoangmanh.github.io/posts/technical/design-pattern-than-thien-trong-go/</guid>
+      <guid>https://duchng.github.io/posts/technical/design-pattern-than-thien-trong-go/</guid>
       <description>Tại sao lại có bài viết này?: Design pattern: Những giải pháp có thể tái sử dụng cho các vấn đề thường gặp tại một ngữ cảnh nhất định trong quá trinh thiết kế phần mềm.
 Bài viết này nói về một số Design pattern &amp;ldquo;thân thiện&amp;rdquo; hơn trong go, được mình tổng hợp dựa trên buổi talk của Ryan Djurovich (https://www.youtube.com/watch?v=HHqv3_rUr88) và một số nguồn tài liệu khác mà mình đọc được.</description>
     </item>

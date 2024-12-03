@@ -407,7 +407,7 @@ func TestQueryParser(t *testing.T) {
 }
 ```
 
-Source code trong bài: https://github.com/DucHoangManh/queryparser
+Source code trong bài: https://github.com/duchng/queryparser
 
 
 

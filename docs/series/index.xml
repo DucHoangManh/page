@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Series on duchm</title>
-    <link>https://duchoangmanh.github.io/series/</link>
+    <link>https://duchng.github.io/series/</link>
     <description>Recent content in Series on duchm</description>
     <image>
       <title>duchm</title>
-      <url>https://duchoangmanh.github.io/papermod-cover.png</url>
-      <link>https://duchoangmanh.github.io/papermod-cover.png</link>
+      <url>https://duchng.github.io/papermod-cover.png</url>
+      <link>https://duchng.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <atom:link href="https://duchoangmanh.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://duchng.github.io/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

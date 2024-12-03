@@ -2,74 +2,74 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>duchm</title>
-    <link>https://duchoangmanh.github.io/</link>
+    <link>https://duchng.github.io/</link>
     <description>Recent content on duchm</description>
     <image>
       <title>duchm</title>
-      <url>https://duchoangmanh.github.io/papermod-cover.png</url>
-      <link>https://duchoangmanh.github.io/papermod-cover.png</link>
+      <url>https://duchng.github.io/papermod-cover.png</url>
+      <link>https://duchng.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 15 Feb 2024 20:40:05 +0700</lastBuildDate>
-    <atom:link href="https://duchoangmanh.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://duchng.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go: Exploring new loop semantics</title>
-      <link>https://duchoangmanh.github.io/posts/technical/exploring-go-new-loop-semantics/</link>
+      <link>https://duchng.github.io/posts/technical/exploring-go-new-loop-semantics/</link>
       <pubDate>Thu, 15 Feb 2024 20:40:05 +0700</pubDate>
-      <guid>https://duchoangmanh.github.io/posts/technical/exploring-go-new-loop-semantics/</guid>
+      <guid>https://duchng.github.io/posts/technical/exploring-go-new-loop-semantics/</guid>
       <description>Go 1.22 has just been released with a bunch of new features and improvements. In this article, we will explore the new loop semantics and how they can be used to write more expressive and readable code.
 1. Loop variable is no longer be shared between iterations Previously, the loop variable was shared between iterations, from go 1.21 (experimental) and now with go 1.22, the loop variable is created anew with each iteration, effectively eliminating one of the most common foot gun in Go (for both experienced and new gophers).</description>
     </item>
     <item>
       <title>How to write integration tests with test container in Go</title>
-      <link>https://duchoangmanh.github.io/posts/technical/testing-with-test-container-go/</link>
+      <link>https://duchng.github.io/posts/technical/testing-with-test-container-go/</link>
       <pubDate>Wed, 27 Dec 2023 18:31:05 +0700</pubDate>
-      <guid>https://duchoangmanh.github.io/posts/technical/testing-with-test-container-go/</guid>
+      <guid>https://duchng.github.io/posts/technical/testing-with-test-container-go/</guid>
       <description>The significance of integration testing in assuring the reliability and seamless operation of software systems cannot be understated. This guide will help you get started with using containers for integration testing and learn how to set up and execute test cases effectively.
 1. Use container for testing Let&amp;rsquo;s consider a small example program where I use postgres as the underlying database to store product records:
 create table product ( id serial8 not null primary key, name varchar(100) not null, type varchar(50) not null, code varchar(50) not null, price int4 not null ); The program can create, update and list products via a repository:</description>
     </item>
     <item>
       <title>Go: Giới thiệu về reflection qua ví dụ</title>
-      <link>https://duchoangmanh.github.io/posts/technical/go-reflection-qua-vi-du/</link>
+      <link>https://duchng.github.io/posts/technical/go-reflection-qua-vi-du/</link>
       <pubDate>Wed, 13 Jul 2022 00:01:23 +0700</pubDate>
-      <guid>https://duchoangmanh.github.io/posts/technical/go-reflection-qua-vi-du/</guid>
+      <guid>https://duchng.github.io/posts/technical/go-reflection-qua-vi-du/</guid>
       <description>Reflection trong Go Reflection trong go giúp cho ta có thể theo dõi code tại thời điểm runtime, cho phép tiếp cận mã nguồn chương trình dưới dạng data có thể xử lý thay vì các lệnh có thể thực thi (một nhánh trong metaprogramming).
 Reflection trong go có thể được thực hiện thông qua reflect package. Một số khả năng của reflect:
 Kiểm tra thông tin của một struct (số lượng method, số lượng field, đọc struct tag&amp;hellip;) mà không cần biết trước về struct đó.</description>
     </item>
     <item>
       <title>Go: Giới thiệu về type parameter (generic) qua ví dụ</title>
-      <link>https://duchoangmanh.github.io/posts/technical/go-gioi-thieu-type-parameter-qua-vi-du/</link>
+      <link>https://duchng.github.io/posts/technical/go-gioi-thieu-type-parameter-qua-vi-du/</link>
       <pubDate>Thu, 30 Jun 2022 20:21:52 +0700</pubDate>
-      <guid>https://duchoangmanh.github.io/posts/technical/go-gioi-thieu-type-parameter-qua-vi-du/</guid>
+      <guid>https://duchng.github.io/posts/technical/go-gioi-thieu-type-parameter-qua-vi-du/</guid>
       <description>1. Kiểm tra sự xuất hiện của một phần tử trong slice Type parameter hay generic là một tính năng mới xuất hiện từ phiên bản 1.18 của Go. Với generic, ta có thể viết các hàm hoặc type có thể dùng được cho nhiều kiểu dữ liệu đầu vào khác nhau mà không cần phải lặp lại code nhiều lần.
 Hãy bắt đầu với một ví dụ đơn giản và phổ biến: Kiểm tra xem string có xuất hiện trong slice hay không</description>
     </item>
     <item>
       <title>Go tips and optimization notes</title>
-      <link>https://duchoangmanh.github.io/posts/technical/go-tips-and-optimization-notes/</link>
+      <link>https://duchng.github.io/posts/technical/go-tips-and-optimization-notes/</link>
       <pubDate>Tue, 14 Jun 2022 13:31:06 +0700</pubDate>
-      <guid>https://duchoangmanh.github.io/posts/technical/go-tips-and-optimization-notes/</guid>
+      <guid>https://duchng.github.io/posts/technical/go-tips-and-optimization-notes/</guid>
       <description>Some Go tips (maybe some dark side too) and notes for writing better code.
 1. Efficiently converse between string and byte slice Gain some performance with the price of maintainability. Using the unsafe package is not advised but we can use it to efficiently converse between a string and byte slice. Use at your own risk.
 byte slice to string func String(b []byte) (s string) { if len(b) == 0 { return &amp;#34;&amp;#34; } return *(*string)(unsafe.</description>
     </item>
     <item>
       <title>Create a web framework in Go part 1: static routing</title>
-      <link>https://duchoangmanh.github.io/posts/technical/create-a-web-framework-in-go/</link>
+      <link>https://duchng.github.io/posts/technical/create-a-web-framework-in-go/</link>
       <pubDate>Fri, 31 Dec 2021 23:24:26 +0700</pubDate>
-      <guid>https://duchoangmanh.github.io/posts/technical/create-a-web-framework-in-go/</guid>
+      <guid>https://duchng.github.io/posts/technical/create-a-web-framework-in-go/</guid>
       <description>This post contains my notes while implement caneweb - a gin-like minimal web framework/router after reading the first section of 7 days golang by geektutu (https://github.com/geektutu/7days-golang).
 How standard net/http package handle request? First, let&amp;rsquo;s look at a sample written with net/http package:
 func main() { http.HandleFunc(&amp;#34;/&amp;#34;, handler) http.HandleFunc(&amp;#34;/post&amp;#34;, getAllPost) log.Fatal(http.ListenAndServe(&amp;#34;localhost:8000&amp;#34;, nil)) } func handler(w http.ResponseWriter, r *http.Request) { fmt.Fprintf(w, &amp;#34;URL.Path = %q\n&amp;#34;, r.URL.Path) } This piece of code binds two endpoints with the corresponding handler function, and starts a web server at port 8000, terminates the server if some errors are returned.</description>
     </item>
     <item>
       <title>Design pattern thân thiện trong go</title>
-      <link>https://duchoangmanh.github.io/posts/technical/design-pattern-than-thien-trong-go/</link>
+      <link>https://duchng.github.io/posts/technical/design-pattern-than-thien-trong-go/</link>
       <pubDate>Sun, 26 Dec 2021 22:14:29 +0700</pubDate>
-      <guid>https://duchoangmanh.github.io/posts/technical/design-pattern-than-thien-trong-go/</guid>
+      <guid>https://duchng.github.io/posts/technical/design-pattern-than-thien-trong-go/</guid>
       <description>Tại sao lại có bài viết này?: Design pattern: Những giải pháp có thể tái sử dụng cho các vấn đề thường gặp tại một ngữ cảnh nhất định trong quá trinh thiết kế phần mềm.
 Bài viết này nói về một số Design pattern &amp;ldquo;thân thiện&amp;rdquo; hơn trong go, được mình tổng hợp dựa trên buổi talk của Ryan Djurovich (https://www.youtube.com/watch?v=HHqv3_rUr88) và một số nguồn tài liệu khác mà mình đọc được.</description>
     </item>

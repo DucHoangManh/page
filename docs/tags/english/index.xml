@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>english on duchm</title>
-    <link>https://duchoangmanh.github.io/tags/english/</link>
+    <link>https://duchng.github.io/tags/english/</link>
     <description>Recent content in english on duchm</description>
     <image>
       <title>duchm</title>
-      <url>https://duchoangmanh.github.io/papermod-cover.png</url>
-      <link>https://duchoangmanh.github.io/papermod-cover.png</link>
+      <url>https://duchng.github.io/papermod-cover.png</url>
+      <link>https://duchng.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 31 Dec 2021 23:24:26 +0700</lastBuildDate>
-    <atom:link href="https://duchoangmanh.github.io/tags/english/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://duchng.github.io/tags/english/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Create a web framework in Go part 1: static routing</title>
-      <link>https://duchoangmanh.github.io/posts/technical/create-a-web-framework-in-go/</link>
+      <link>https://duchng.github.io/posts/technical/create-a-web-framework-in-go/</link>
       <pubDate>Fri, 31 Dec 2021 23:24:26 +0700</pubDate>
-      <guid>https://duchoangmanh.github.io/posts/technical/create-a-web-framework-in-go/</guid>
+      <guid>https://duchng.github.io/posts/technical/create-a-web-framework-in-go/</guid>
       <description>This post contains my notes while implement caneweb - a gin-like minimal web framework/router after reading the first section of 7 days golang by geektutu (https://github.com/geektutu/7days-golang).
 How standard net/http package handle request? First, let&amp;rsquo;s look at a sample written with net/http package:
 func main() { http.HandleFunc(&amp;#34;/&amp;#34;, handler) http.HandleFunc(&amp;#34;/post&amp;#34;, getAllPost) log.Fatal(http.ListenAndServe(&amp;#34;localhost:8000&amp;#34;, nil)) } func handler(w http.ResponseWriter, r *http.Request) { fmt.Fprintf(w, &amp;#34;URL.Path = %q\n&amp;#34;, r.URL.Path) } This piece of code binds two endpoints with the corresponding handler function, and starts a web server at port 8000, terminates the server if some errors are returned.</description>

@@ -223,7 +223,7 @@ Kết quả:
 ```
 -10 -5 0 2 4 5 8 9
 ```
-Clear hơn khá nhiều phải không? Có thể xem code đầy đủ tại [đây](https://github.com/DucHoangManh/generic-heap)
+Clear hơn khá nhiều phải không? Có thể xem code đầy đủ tại [đây](https://github.com/duchng/generic-heap)
 
 ### 3. Khi nào dùng type parameter?
 - Khi dùng type parameter chỉ để gọi method của constraints thì không nên dùng type parameter mà nên dùng hàm bình thường nhận vào interface.
