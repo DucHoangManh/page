@@ -3,21 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://duchng.github.io/</loc>
-    <lastmod>2024-02-15T20:40:05+07:00</lastmod>
+    <lastmod>2024-12-23T17:29:51+07:00</lastmod>
+  </url><url>
+    <loc>https://duchng.github.io/posts/technical/grpc-go-custom-options/</loc>
+    <lastmod>2024-12-23T17:29:51+07:00</lastmod>
+  </url><url>
+    <loc>https://duchng.github.io/tags/go/</loc>
+    <lastmod>2024-12-23T17:29:51+07:00</lastmod>
+  </url><url>
+    <loc>https://duchng.github.io/tags/grpc/</loc>
+    <lastmod>2024-12-23T17:29:51+07:00</lastmod>
+  </url><url>
+    <loc>https://duchng.github.io/posts/</loc>
+    <lastmod>2024-12-23T17:29:51+07:00</lastmod>
+  </url><url>
+    <loc>https://duchng.github.io/tags/protobuf/</loc>
+    <lastmod>2024-12-23T17:29:51+07:00</lastmod>
+  </url><url>
+    <loc>https://duchng.github.io/tags/</loc>
+    <lastmod>2024-12-23T17:29:51+07:00</lastmod>
   </url><url>
     <loc>https://duchng.github.io/tags/efective-go/</loc>
     <lastmod>2024-02-15T20:40:05+07:00</lastmod>
   </url><url>
-    <loc>https://duchng.github.io/tags/go/</loc>
-    <lastmod>2024-02-15T20:40:05+07:00</lastmod>
-  </url><url>
     <loc>https://duchng.github.io/posts/technical/exploring-go-new-loop-semantics/</loc>
-    <lastmod>2024-02-15T20:40:05+07:00</lastmod>
-  </url><url>
-    <loc>https://duchng.github.io/posts/</loc>
-    <lastmod>2024-02-15T20:40:05+07:00</lastmod>
-  </url><url>
-    <loc>https://duchng.github.io/tags/</loc>
     <lastmod>2024-02-15T20:40:05+07:00</lastmod>
   </url><url>
     <loc>https://duchng.github.io/posts/technical/testing-with-test-container-go/</loc>

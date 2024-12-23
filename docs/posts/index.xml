@@ -11,8 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Feb 2024 20:40:05 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 23 Dec 2024 17:29:51 +0700</lastBuildDate>
     <atom:link href="https://duchng.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Extend grpc methods with custom options in Go</title>
+      <link>https://duchng.github.io/posts/technical/grpc-go-custom-options/</link>
+      <pubDate>Mon, 23 Dec 2024 17:29:51 +0700</pubDate>
+      <guid>https://duchng.github.io/posts/technical/grpc-go-custom-options/</guid>
+      <description>Custom method option in grpc go Recently, I was implementing various apis in Go with gppc/grpc-gateway and a problem arose. Have a look at this example:
+message GetFlowersRequest { } message GetFlowersResponse { repeated Flower flowers = 1; } message GetMushroomsRequest { } message GetMushroomsResponse { repeated Mushroom mushrooms = 1; } message Flower { string name = 1; string color = 2; } message Mushroom { string name = 1; int64 size = 2; } service GardenService { rpc GetFlowers(GetFlowersRequest) returns (GetFlowersResponse); rpc GetMushrooms(GetMushroomsRequest) returns (GetMushroomsResponse); } In this example, our GardenService has two methods: GetFlowers and GetMushrooms, but not every user can access both methods.</description>
+    </item>
     <item>
       <title>Go: Exploring new loop semantics</title>
       <link>https://duchng.github.io/posts/technical/exploring-go-new-loop-semantics/</link>

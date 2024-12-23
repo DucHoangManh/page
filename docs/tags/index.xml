@@ -11,20 +11,34 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Feb 2024 20:40:05 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 23 Dec 2024 17:29:51 +0700</lastBuildDate>
     <atom:link href="https://duchng.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>go</title>
+      <link>https://duchng.github.io/tags/go/</link>
+      <pubDate>Mon, 23 Dec 2024 17:29:51 +0700</pubDate>
+      <guid>https://duchng.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>grpc</title>
+      <link>https://duchng.github.io/tags/grpc/</link>
+      <pubDate>Mon, 23 Dec 2024 17:29:51 +0700</pubDate>
+      <guid>https://duchng.github.io/tags/grpc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>protobuf</title>
+      <link>https://duchng.github.io/tags/protobuf/</link>
+      <pubDate>Mon, 23 Dec 2024 17:29:51 +0700</pubDate>
+      <guid>https://duchng.github.io/tags/protobuf/</guid>
+      <description></description>
+    </item>
     <item>
       <title>efective-go</title>
       <link>https://duchng.github.io/tags/efective-go/</link>
       <pubDate>Thu, 15 Feb 2024 20:40:05 +0700</pubDate>
       <guid>https://duchng.github.io/tags/efective-go/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>go</title>
-      <link>https://duchng.github.io/tags/go/</link>
-      <pubDate>Thu, 15 Feb 2024 20:40:05 +0700</pubDate>
-      <guid>https://duchng.github.io/tags/go/</guid>
       <description></description>
     </item>
     <item>

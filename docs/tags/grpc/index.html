@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Archive | duchm</title>
+<title>grpc | duchm</title>
 <meta name="keywords" content="">
-<meta name="description" content="archives">
+<meta name="description" content="">
 <meta name="author" content="Duc">
-<link rel="canonical" href="https://duchng.github.io/archives/">
+<link rel="canonical" href="https://duchng.github.io/tags/grpc/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://duchng.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://duchng.github.io/favicon-16x16.png">
@@ -18,6 +18,7 @@
 <link rel="mask-icon" href="https://duchng.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://duchng.github.io/tags/grpc/index.xml">
 <noscript>
     <style>
         #theme-toggle,
@@ -54,67 +55,17 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="Archive" />
-<meta property="og:description" content="archives" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://duchng.github.io/archives/" /><meta property="og:image" content="https://duchng.github.io/papermod-cover.png"/><meta property="article:section" content="" />
-
-
+</noscript><meta property="og:title" content="grpc" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://duchng.github.io/tags/grpc/" /><meta property="og:image" content="https://duchng.github.io/papermod-cover.png"/>
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://duchng.github.io/papermod-cover.png"/>
 
-<meta name="twitter:title" content="Archive"/>
-<meta name="twitter:description" content="archives"/>
+<meta name="twitter:title" content="grpc"/>
+<meta name="twitter:description" content=""/>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Archive",
-      "item": "https://duchng.github.io/archives/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Archive",
-  "name": "Archive",
-  "description": "archives",
-  "keywords": [
-    
-  ],
-  "articleBody": "",
-  "wordCount" : "0",
-  "inLanguage": "en",
-  "datePublished": "0001-01-01T00:00:00Z",
-  "dateModified": "0001-01-01T00:00:00Z",
-  "author":{
-    "@type": "Person",
-    "name": "Duc"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://duchng.github.io/archives/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "duchm",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://duchng.github.io/favicon.ico"
-    }
-  }
-}
-</script>
 </head>
 
 <body class="list" id="top">
@@ -159,7 +110,7 @@
         <ul id="menu">
             <li>
                 <a href="https://duchng.github.io/archives" title="Archive">
-                    <span class="active">Archive</span>
+                    <span>Archive</span>
                 </a>
             </li>
             <li>
@@ -180,107 +131,25 @@
         </ul>
     </nav>
 </header>
-<main class="main">
-
-<header class="page-header">
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://duchng.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://duchng.github.io/tags/">Tags</a></div>
   <h1>
-    Archive
+    grpc
   </h1>
 </header>
-<div class="archive-year">
-  <h2 class="archive-year-header">2024<sup class="archive-count">&nbsp;&nbsp;2</sup>
-  </h2>
-  <div class="archive-month">
-    <h3 class="archive-month-header">December<sup class="archive-count">&nbsp;&nbsp;1</sup></h3>
-    <div class="archive-posts">
-      <div class="archive-entry">
-        <h3 class="archive-entry-title entry-hint-parent">Extend grpc methods with custom options in Go
-        </h3>
-        <div class="archive-meta"><span title='2024-12-23 17:29:51 +0700 +07'>December 23, 2024</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Duc</div>
-        <a class="entry-link" aria-label="post link to Extend grpc methods with custom options in Go" href="https://duchng.github.io/posts/technical/grpc-go-custom-options/"></a>
-      </div>
-    </div>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Extend grpc methods with custom options in Go
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Custom method option in grpc go Recently, I was implementing various apis in Go with gppc/grpc-gateway and a problem arose. Have a look at this example:
+message GetFlowersRequest { } message GetFlowersResponse { repeated Flower flowers = 1; } message GetMushroomsRequest { } message GetMushroomsResponse { repeated Mushroom mushrooms = 1; } message Flower { string name = 1; string color = 2; } message Mushroom { string name = 1; int64 size = 2; } service GardenService { rpc GetFlowers(GetFlowersRequest) returns (GetFlowersResponse); rpc GetMushrooms(GetMushroomsRequest) returns (GetMushroomsResponse); } In this example, our GardenService has two methods: GetFlowers and GetMushrooms, but not every user can access both methods....</p>
   </div>
-  <div class="archive-month">
-    <h3 class="archive-month-header">February<sup class="archive-count">&nbsp;&nbsp;1</sup></h3>
-    <div class="archive-posts">
-      <div class="archive-entry">
-        <h3 class="archive-entry-title entry-hint-parent">Go: Exploring new loop semantics
-        </h3>
-        <div class="archive-meta"><span title='2024-02-15 20:40:05 +0700 +07'>February 15, 2024</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Duc</div>
-        <a class="entry-link" aria-label="post link to Go: Exploring new loop semantics" href="https://duchng.github.io/posts/technical/exploring-go-new-loop-semantics/"></a>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="archive-year">
-  <h2 class="archive-year-header">2023<sup class="archive-count">&nbsp;&nbsp;1</sup>
-  </h2>
-  <div class="archive-month">
-    <h3 class="archive-month-header">December<sup class="archive-count">&nbsp;&nbsp;1</sup></h3>
-    <div class="archive-posts">
-      <div class="archive-entry">
-        <h3 class="archive-entry-title entry-hint-parent">How to write integration tests with test container in Go
-        </h3>
-        <div class="archive-meta"><span title='2023-12-27 18:31:05 +0700 +07'>December 27, 2023</span>&nbsp;·&nbsp;7 min&nbsp;·&nbsp;Duc</div>
-        <a class="entry-link" aria-label="post link to How to write integration tests with test container in Go" href="https://duchng.github.io/posts/technical/testing-with-test-container-go/"></a>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="archive-year">
-  <h2 class="archive-year-header">2022<sup class="archive-count">&nbsp;&nbsp;3</sup>
-  </h2>
-  <div class="archive-month">
-    <h3 class="archive-month-header">July<sup class="archive-count">&nbsp;&nbsp;1</sup></h3>
-    <div class="archive-posts">
-      <div class="archive-entry">
-        <h3 class="archive-entry-title entry-hint-parent">Go: Giới thiệu về reflection qua ví dụ
-        </h3>
-        <div class="archive-meta"><span title='2022-07-13 00:01:23 +0700 +07'>July 13, 2022</span>&nbsp;·&nbsp;10 min&nbsp;·&nbsp;Duc</div>
-        <a class="entry-link" aria-label="post link to Go: Giới thiệu về reflection qua ví dụ" href="https://duchng.github.io/posts/technical/go-reflection-qua-vi-du/"></a>
-      </div>
-    </div>
-  </div>
-  <div class="archive-month">
-    <h3 class="archive-month-header">June<sup class="archive-count">&nbsp;&nbsp;2</sup></h3>
-    <div class="archive-posts">
-      <div class="archive-entry">
-        <h3 class="archive-entry-title entry-hint-parent">Go: Giới thiệu về type parameter (generic) qua ví dụ
-        </h3>
-        <div class="archive-meta"><span title='2022-06-30 20:21:52 +0700 +07'>June 30, 2022</span>&nbsp;·&nbsp;7 min&nbsp;·&nbsp;Duc</div>
-        <a class="entry-link" aria-label="post link to Go: Giới thiệu về type parameter (generic) qua ví dụ" href="https://duchng.github.io/posts/technical/go-gioi-thieu-type-parameter-qua-vi-du/"></a>
-      </div>
-      <div class="archive-entry">
-        <h3 class="archive-entry-title entry-hint-parent">Go tips and optimization notes
-        </h3>
-        <div class="archive-meta"><span title='2022-06-14 13:31:06 +0700 +07'>June 14, 2022</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Duc</div>
-        <a class="entry-link" aria-label="post link to Go tips and optimization notes" href="https://duchng.github.io/posts/technical/go-tips-and-optimization-notes/"></a>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="archive-year">
-  <h2 class="archive-year-header">2021<sup class="archive-count">&nbsp;&nbsp;2</sup>
-  </h2>
-  <div class="archive-month">
-    <h3 class="archive-month-header">December<sup class="archive-count">&nbsp;&nbsp;2</sup></h3>
-    <div class="archive-posts">
-      <div class="archive-entry">
-        <h3 class="archive-entry-title entry-hint-parent">Create a web framework in Go part 1: static routing
-        </h3>
-        <div class="archive-meta"><span title='2021-12-31 23:24:26 +0700 +07'>December 31, 2021</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Duc</div>
-        <a class="entry-link" aria-label="post link to Create a web framework in Go part 1: static routing" href="https://duchng.github.io/posts/technical/create-a-web-framework-in-go/"></a>
-      </div>
-      <div class="archive-entry">
-        <h3 class="archive-entry-title entry-hint-parent">Design pattern thân thiện trong go
-        </h3>
-        <div class="archive-meta"><span title='2021-12-26 22:14:29 +0700 +07'>December 26, 2021</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Duc</div>
-        <a class="entry-link" aria-label="post link to Design pattern thân thiện trong go" href="https://duchng.github.io/posts/technical/design-pattern-than-thien-trong-go/"></a>
-      </div>
-    </div>
-  </div>
-</div>
+  <footer class="entry-footer"><span title='2024-12-23 17:29:51 +0700 +07'>December 23, 2024</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Duc</footer>
+  <a class="entry-link" aria-label="post link to Extend grpc methods with custom options in Go" href="https://duchng.github.io/posts/technical/grpc-go-custom-options/"></a>
+</article>
     </main>
     
 <footer class="footer">

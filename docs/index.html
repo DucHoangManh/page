@@ -188,6 +188,19 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Extend grpc methods with custom options in Go
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Custom method option in grpc go Recently, I was implementing various apis in Go with gppc/grpc-gateway and a problem arose. Have a look at this example:
+message GetFlowersRequest { } message GetFlowersResponse { repeated Flower flowers = 1; } message GetMushroomsRequest { } message GetMushroomsResponse { repeated Mushroom mushrooms = 1; } message Flower { string name = 1; string color = 2; } message Mushroom { string name = 1; int64 size = 2; } service GardenService { rpc GetFlowers(GetFlowersRequest) returns (GetFlowersResponse); rpc GetMushrooms(GetMushroomsRequest) returns (GetMushroomsResponse); } In this example, our GardenService has two methods: GetFlowers and GetMushrooms, but not every user can access both methods....</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-12-23 17:29:51 +0700 +07'>December 23, 2024</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Duc</footer>
+  <a class="entry-link" aria-label="post link to Extend grpc methods with custom options in Go" href="https://duchng.github.io/posts/technical/grpc-go-custom-options/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Go: Exploring new loop semantics
     </h2>
   </header>
